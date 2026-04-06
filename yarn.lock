@@ -141,6 +141,28 @@
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.28.5"
 
+"@emnapi/core@^1.7.1":
+  version "1.9.2"
+  resolved "https://registry.npmjs.org/@emnapi/core/-/core-1.9.2.tgz"
+  integrity sha512-UC+ZhH3XtczQYfOlu3lNEkdW/p4dsJ1r/bP7H8+rhao3TTTMO1ATq/4DdIi23XuGoFY+Cz0JmCbdVl0hz9jZcA==
+  dependencies:
+    "@emnapi/wasi-threads" "1.2.1"
+    tslib "^2.4.0"
+
+"@emnapi/runtime@^1.7.1":
+  version "1.9.2"
+  resolved "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.9.2.tgz"
+  integrity sha512-3U4+MIWHImeyu1wnmVygh5WlgfYDtyf0k8AbLhMFxOipihf6nrWC4syIm/SwEeec0mNSafiiNnMJwbza/Is6Lw==
+  dependencies:
+    tslib "^2.4.0"
+
+"@emnapi/wasi-threads@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz"
+  integrity sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==
+  dependencies:
+    tslib "^2.4.0"
+
 "@eslint-community/eslint-utils@^4.8.0":
   version "4.9.1"
   resolved "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.1.tgz"
@@ -253,7 +275,7 @@
   resolved "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz"
   integrity sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==
 
-"@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.5.0":
+"@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.5.0", "@jridgewell/sourcemap-codec@^1.5.5":
   version "1.5.5"
   resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz"
   integrity sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==
@@ -340,6 +362,58 @@
     "@supabase/postgrest-js" "2.101.1"
     "@supabase/realtime-js" "2.101.1"
     "@supabase/storage-js" "2.101.1"
+
+"@tailwindcss/node@4.2.2":
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/@tailwindcss/node/-/node-4.2.2.tgz"
+  integrity sha512-pXS+wJ2gZpVXqFaUEjojq7jzMpTGf8rU6ipJz5ovJV6PUGmlJ+jvIwGrzdHdQ80Sg+wmQxUFuoW1UAAwHNEdFA==
+  dependencies:
+    "@jridgewell/remapping" "^2.3.5"
+    enhanced-resolve "^5.19.0"
+    jiti "^2.6.1"
+    lightningcss "1.32.0"
+    magic-string "^0.30.21"
+    source-map-js "^1.2.1"
+    tailwindcss "4.2.2"
+
+"@tailwindcss/oxide-win32-x64-msvc@4.2.2":
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.2.2.tgz"
+  integrity sha512-1T/37VvI7WyH66b+vqHj/cLwnCxt7Qt3WFu5Q8hk65aOvlwAhs7rAp1VkulBJw/N4tMirXjVnylTR72uI0HGcA==
+
+"@tailwindcss/oxide@4.2.2":
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.2.tgz"
+  integrity sha512-qEUA07+E5kehxYp9BVMpq9E8vnJuBHfJEC0vPC5e7iL/hw7HR61aDKoVoKzrG+QKp56vhNZe4qwkRmMC0zDLvg==
+  optionalDependencies:
+    "@tailwindcss/oxide-android-arm64" "4.2.2"
+    "@tailwindcss/oxide-darwin-arm64" "4.2.2"
+    "@tailwindcss/oxide-darwin-x64" "4.2.2"
+    "@tailwindcss/oxide-freebsd-x64" "4.2.2"
+    "@tailwindcss/oxide-linux-arm-gnueabihf" "4.2.2"
+    "@tailwindcss/oxide-linux-arm64-gnu" "4.2.2"
+    "@tailwindcss/oxide-linux-arm64-musl" "4.2.2"
+    "@tailwindcss/oxide-linux-x64-gnu" "4.2.2"
+    "@tailwindcss/oxide-linux-x64-musl" "4.2.2"
+    "@tailwindcss/oxide-wasm32-wasi" "4.2.2"
+    "@tailwindcss/oxide-win32-arm64-msvc" "4.2.2"
+    "@tailwindcss/oxide-win32-x64-msvc" "4.2.2"
+
+"@tailwindcss/vite@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.2.2.tgz"
+  integrity sha512-mEiF5HO1QqCLXoNEfXVA1Tzo+cYsrqV7w9Juj2wdUFyW07JRenqMG225MvPwr3ZD9N1bFQj46X7r33iHxLUW0w==
+  dependencies:
+    "@tailwindcss/node" "4.2.2"
+    "@tailwindcss/oxide" "4.2.2"
+    tailwindcss "4.2.2"
+
+"@tybys/wasm-util@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz"
+  integrity sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==
+  dependencies:
+    tslib "^2.4.0"
 
 "@types/estree@^1.0.6":
   version "1.0.8"
@@ -525,6 +599,14 @@ electron-to-chromium@^1.5.328:
   version "1.5.331"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.331.tgz"
   integrity sha512-IbxXrsTlD3hRodkLnbxAPP4OuJYdWCeM3IOdT+CpcMoIwIoDfCmRpEtSPfwBXxVkg9xmBeY7Lz2Eo2TDn/HC3Q==
+
+enhanced-resolve@^5.19.0:
+  version "5.20.1"
+  resolved "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.20.1.tgz"
+  integrity sha512-Qohcme7V1inbAfvjItgw0EaxVX5q2rdVEZHRBrEQdRZTssLDGsL8Lwrznl8oQ/6kuTJONLaDcGjkNP247XEhcA==
+  dependencies:
+    graceful-fs "^4.2.4"
+    tapable "^2.3.0"
 
 escalade@^3.2.0:
   version "3.2.0"
@@ -713,6 +795,11 @@ globals@^17.4.0:
   resolved "https://registry.npmjs.org/globals/-/globals-17.4.0.tgz"
   integrity sha512-hjrNztw/VajQwOLsMNT1cbJiH2muO3OROCHnbehc8eY5JyD2gqz4AcMHPqgaOR59DjgUjYAYLeH699g/eWi2jw==
 
+graceful-fs@^4.2.4:
+  version "4.2.11"
+  resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz"
+  integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+
 has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
@@ -769,6 +856,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
+
+jiti@*, jiti@^2.6.1, jiti@>=1.21.0:
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz"
+  integrity sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -827,7 +919,7 @@ lightningcss-win32-x64-msvc@1.32.0:
   resolved "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz"
   integrity sha512-Amq9B/SoZYdDi1kFrojnoqPLxYhQ4Wo5XiL8EVJrVsB8ARoC1PWW6VGtT0WKCemjy8aC+louJnjS7U18x3b06Q==
 
-lightningcss@^1.32.0:
+lightningcss@^1.32.0, lightningcss@1.32.0:
   version "1.32.0"
   resolved "https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz"
   integrity sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==
@@ -864,6 +956,13 @@ lru-cache@^5.1.1:
   integrity sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
   dependencies:
     yallist "^3.0.2"
+
+magic-string@^0.30.21:
+  version "0.30.21"
+  resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz"
+  integrity sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.5.5"
 
 minimatch@^3.1.5:
   version "3.1.5"
@@ -1064,6 +1163,16 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+tailwindcss@^4.2.2, tailwindcss@4.2.2:
+  version "4.2.2"
+  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.2.tgz"
+  integrity sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==
+
+tapable@^2.3.0:
+  version "2.3.2"
+  resolved "https://registry.npmjs.org/tapable/-/tapable-2.3.2.tgz"
+  integrity sha512-1MOpMXuhGzGL5TTCZFItxCc0AARf1EZFQkGqMm7ERKj8+Hgr5oLvJOVFcC+lRmR8hCe2S3jC4T5D7Vg/d7/fhA==
+
 tinyglobby@^0.2.15:
   version "0.2.15"
   resolved "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz"
@@ -1072,7 +1181,7 @@ tinyglobby@^0.2.15:
     fdir "^6.5.0"
     picomatch "^4.0.3"
 
-tslib@2.8.1:
+tslib@^2.4.0, tslib@2.8.1:
   version "2.8.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
@@ -1104,7 +1213,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-vite@^8.0.0, vite@^8.0.4:
+"vite@^5.2.0 || ^6 || ^7 || ^8", vite@^8.0.0, vite@^8.0.4:
   version "8.0.5"
   resolved "https://registry.npmjs.org/vite/-/vite-8.0.5.tgz"
   integrity sha512-nmu43Qvq9UopTRfMx2jOYW5l16pb3iDC1JH6yMuPkpVbzK0k+L7dfsEDH4jRgYFmsg0sTAqkojoZgzLMlwHsCQ==
